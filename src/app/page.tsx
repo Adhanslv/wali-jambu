@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<div className="">
 			<Navbar />
-			<div className="grid grid-cols-2 px-[5vw] mt-14 ">
+			<div className="grid grid-cols-2 px-[5vw] mt-10 ">
 				<div className="col-span-2 md:col-span-1">
 					<h1 className="font-bold text-2xl mt-14 mb-3 ">Pak Muslih Jambu Citra</h1>
 					<p className="text-justify">
@@ -18,8 +18,8 @@ export default function Home() {
 						menjadikan Jambu tak hanya produk, tetapi juga simbol dari kerja keras dan kepercayaan masyarakat.
 					</p>
 					<div className="flex gap-x-3 mt-10 mb-20">
-						<Link className="px-3 py-2.5 rounded-md bg-[#323232] text-white " href={""}>
-							Hubungi Kami
+						<Link className="px-3 py-2.5 rounded-md bg-[#323232] text-white " href={"/tentang"}>
+							Selengkapnya
 						</Link>
 					</div>
 				</div>
@@ -51,17 +51,17 @@ export default function Home() {
 						<p className="text-center">Menjual peralatan untuk merawat tanaman jambu</p>
 					</div>
 				</div>
-				<div className="flex justify-center">
+				{/* <div className="flex justify-center">
 					<Link href={"/produk"} className="px-3 py-2.5 rounded-md bg-[#323232] text-white mt-12">
 						Selengkapnya
 					</Link>
-				</div>
+				</div> */}
 			</div>
-			<div className="tata-cara px-[5vw]  mt-20">
+			{/* <div className="tata-cara px-[5vw]  mt-20">
 				<div>
 					<h1 className="font-semibold text-2xl">Pencapaian</h1>
 				</div>
-			</div>
+			</div> */}
 			<div className="lokasi-pembelian mb-20 mt-20 px-[5vw]">
 				<div className="grid grid-cols-2  ">
 					<div className="md:col-span-1 col-span-2">
@@ -73,11 +73,11 @@ export default function Home() {
 							allowFullScreen
 							loading="lazy"
 							referrerPolicy="no-referrer-when-downgrade"
-							className="content-center w-full "
+							className="content-center w-full rounded-l-md"
 						/>
 					</div>
 					<div className="md:col-span-1 col-span-2">
-						<div className="flex-col bg-[#11856c] text-white w-full h-[407px] flex justify-center items-center px-12">
+						<div className="flex-col bg-[#3434eb] text-white w-full h-[407px] flex justify-center items-center px-12 rounded-r-md">
 							<div>
 								<p className="mb-6">
 									Datang ke sini, temukan kesegaran yang tiada duanya! Jambu segar, manis, dan penuh nutrisi siap

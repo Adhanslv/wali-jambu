@@ -7,7 +7,7 @@ import { IconBrandMeta } from "@tabler/icons-react";
 
 function Footer() {
 	return (
-		<div className="grid grid-cols-3 gap-10 bg-[#11856c] text-white mt-12 px-[5vw] py-12">
+		<div className="grid grid-cols-3 gap-10 bg-[#3434eb] text-white  px-[5vw] py-12">
 			<div className="col-span-3 md:col-span-1">
 				<h1 className="font-semibold text-xl mb-3">Wali Jambu</h1>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptas nulla tenetur.</p>
