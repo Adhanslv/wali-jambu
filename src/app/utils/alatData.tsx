@@ -1,7 +1,7 @@
 import Dua from "@/app/assets/alat/dua.jpg";
 import Empat from "@/app/assets/alat/empat.jpg";
 import Lima from "@/app/assets/alat/lima.jpg";
-import Enam from "@/app/assets/alat/Enam.jpg";
+import Enam from "@/app/assets/alat/enam.jpg";
 import Tujuh from "@/app/assets/alat/tujuh.jpg";
 import Delapan from "@/app/assets/alat/delapan.jpg";
 import Sembilan from "@/app/assets/alat/sembilan.jpg";
@@ -13,7 +13,6 @@ import EmpatBelas from "@/app/assets/alat/empatbelas.jpg";
 import LimaBelas from "@/app/assets/alat/limabelas.jpg";
 import EnamBelas from "@/app/assets/alat/enambelas.jpg";
 import TujuhBelas from "@/app/assets/alat/tujuhbelas.jpg";
-import DelapanBelas from "@/app/assets/alat/delapanbelas.jpg";
 import SembilanBelas from "@/app/assets/alat/sembilanbelas.jpg";
 
 export const ListAlat = [

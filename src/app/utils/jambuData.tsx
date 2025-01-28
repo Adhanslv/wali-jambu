@@ -5,7 +5,7 @@ import CincaloTebu from "@/app/assets/buah/CincaloTebu.jpg";
 import Dalhari from "@/app/assets/buah/Dalhari.jpg";
 import DelimaDemak from "@/app/assets/buah/DelimaDemak.jpg";
 import GajahPekalongan from "@/app/assets/buah/GajahPekalongan.jpg";
-import JambuCitra from "@/app/assets/buah/JambuCitra.jpg";
+import JambuCitra from "@/app/assets/buah/JambuCItra.jpg";
 import KusumaMerah from "@/app/assets/buah/KusumaMerah.jpg";
 import LilinIjo from "@/app/assets/buah/LilinIjo.jpg";
 import MayangMangurai from "@/app/assets/buah/MayangMangurai.jpg";
